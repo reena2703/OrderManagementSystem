@@ -21,7 +21,8 @@ This project is a comprehensive e-commerce order management system built in Java
 This system uses a classic layered architecture:
  
 
-![Screenshot (7)](https://github.com/user-attachments/assets/95b35dd2-fd1e-45c3-8f2a-edf9328b2ea8)
+ ![Screenshot (8)](https://github.com/user-attachments/assets/968f6611-0915-4dd2-b50d-5581808a3d53)
+
 
 - **Presentation Layer:** Command-Line Interface (CLI) for user interaction.
 - **Business Logic Layer:** Services coordinate operations, enforce business rules, and handle cross-entity logic.
