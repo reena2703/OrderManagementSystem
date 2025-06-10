@@ -62,7 +62,17 @@ This system uses a classic layered architecture:
 - **Cascading Deletes:** Customer deletion removes all their orders.
 
 ---
+ 
 
+### Assumptions
+
+- Customer and product IDs are generated as UUIDs.
+- Data is persisted in JSON files in the project root directory.
+- Deleting a customer also deletes all their orders.
+- Product price updates only affect future orders.
+- No authentication or user roles are implemented.
+
+---
 ## Key Design Decisions
 
 - **Document Embedding:** Orders store embedded details (not just IDs), optimizing for reads and historical accuracy.
